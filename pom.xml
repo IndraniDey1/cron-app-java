@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/test-cronjob/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.rawsanj</groupId>
+    <groupId>com.idey.cron.example</groupId>
     <artifactId>kubernates-cronjob</artifactId>
     <version>0.1.2</version>
     <packaging>jar</packaging>
@@ -24,7 +24,7 @@
         <java.version>1.8</java.version>
         <spring.cloud.task.version>2.0.0.RELEASE</spring.cloud.task.version>
         <spotify.docker.version>1.0.0</spotify.docker.version>
-        <registry.image.name>rawsanj/spring-cloud-task-as-k8s-cronjob</registry.image.name>
+        <registry.image.name>idey2010/kubernates-cronjob</registry.image.name>
     </properties>
 
     <dependencies>

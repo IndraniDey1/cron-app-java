@@ -10,8 +10,8 @@ spec:
       template:
         spec:
           containers:
-          - name: spring-cloud-task-as-k8s-cronjob
-            image: 'rawsanj/spring-cloud-task-as-k8s-cronjob:0.1.2'
+          - name: kubernates-cronjob 
+            image: 'idey2010/kubernates-cronjob:0.1.2'
             envFrom:
             - configMapRef:
                 name: spring-cloud-task-cronjob-config
